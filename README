@@ -1,0 +1,9 @@
+This is a search utility that i developed that parses a search query submitted by user and converts it into Boolean Full Text Search query that can be used in SQL with all the words stemmed to their base word.
+
+WordStemmer:
+============
+External package with implementation of Porter Stemming algorithm. I fixed a bug in this package.
+
+Search:
+=======
+The class that generates the Boolean Full Text search query from user submitted search word string.
